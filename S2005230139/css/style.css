@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    font-size: 12px;
+    /*color: #666;*/
+}
+.JD{
+    width: 1400px;
+    height: 30px;
+    background-color: #e3e4e5;;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /*color: #666;*/
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: #666;
+}
+
+ul.menu{
+    background-color: #e3e4e5;
+}
+ul.menu::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+ul.menu>li{
+    float:left;
+    width: 80px;
+    line-height: 30px;
+    height:30px;
+    text-align: center;
+    cursor:pointer;
+}
+
+ul.menu>li:hover{
+    background-color: white;
+    
+}
+ul.menu>li:hover>a{
+    color:#e33333;
+}
+/*ul.menu>li:hover>ul.erji{
+    display:block;
+}*/
+.XJD{
+    width: 960px;
+    height: 30px;
+    background-color: #999;
+    float: right;
+    display: block;
+}
+.erji{
+   /* display: block;
+    margin: auto;
+    width: 200px;*/
+    height: 141px;
+    background-color: white;
+}
+.erji {
+    position: absolute;
+    left: 680px;
+    top: 30px;
+    width :250px;
+    border:1px solid #988 ;
+    border-top: none;
+    display: block;
+
+}
+.xch{
+    position: absolute;
+    top: 30px;
+    left: 780px;
+}
+.c{
+    position: absolute;
+    top: 120px;
+    left:780px;
+
+}
+.h{
+   position: absolute;
+   right:540px;
+   top:120px;
+}
+
+img{
+    width: 1400px;
+    float: right;
+    display: block;
+}
+.nav:hover ul.erji{
+    display: block;
+    clear: both;
+}
+ul.erji>li:hover>a{
+    color:#e33333;
+}
+ul.xch>li:hover>a{
+    color:#e33333;
+}
+ul.c>li:hover>a{
+    color:#e33333;
+}
+ul.h>li:hover>a{
+    color:#e33333;
+}
+
+
+
+
